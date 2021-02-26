@@ -1,53 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE xml>
-<packageInfo>
-    <bundleId>com.max21160.NoDock</bundleId>
-    <name>NoDock</name>
-    <version>1.0</version>
-    <descriptions>
-        <description>
-         Customise le dock en le rendant transparant
-        </description>
-        <description>
-        Ce tweak modifie le dock  en le rendant transparant pour un look plus minimaliste
-        </description>
-        <description>
+<package>
+	<id>com.max21160.NoDock</id>
+	<name>NoDock</name>
+	<version>1.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>12.0</miniOS>
+			<maxiOS>14.5</maxiOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+	</dependencies>
+	<shortDescription>   Customise le dock en le rendant transparant</shortDescription>
+	<descriptionlist>
+		        <description>
             - pas de configuration depuis les réglage .
             - Supporte iOS 11 a iOS 14
             - Ne Supporte pas les IPhone (A12 and A13 include)
             - Ne fonctionne pas encore sur ipad. 😔
-
         </description>
-    </descriptions>
-    <compatibility>
-        <miniOS>11.0</miniOS>
-        <maxiOS>14.5</maxiOS>
-    </compatibility>
-    <dependencies>
-        <dependency>mobilesubstrate</dependency>
-         </dependencies>
-    <changelog>
-        <change>
-            <changeVersion>v1.0</changeVersion>
-            <changeDescription>Initial Release  </changeDescription>
-        </change>
-    </changelog>
-    <screenshots>
-        <screen>1.png</screen>
-        <screen>2.png</screen>
-    </screenshots>
-    <information>
-        <developer>Maxime</developer>
-        <price>Gratuit</price>
-        <lastupdate>07/06/2020</lastupdate>
-        <release>07/06/2020</release>
-        <category>Tweaks</category>
-    </information>
-    <links>
-          <github>https://github.com/max21160/max21160.github.io</github>
+		</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			
+			<image>1.png</image>
+		</screenshot>		
+		<screenshot>
+			
+			<image>2.png</image>
+		</screenshot>		
+	</screenshots>
+	<changelog>
+		<change>Version 1.0</change>
+		<change></change>
+		
+	</changelog>
+	<links>
+		<link>
+			 <github>https://github.com/max21160/max21160.github.io</github>
         <twitter>https://twitter.com/Max21160</twitter>
         <mail>mailto:maxime21160@icloud.com</mail>
         <paypal>https://www.paypal.me/IOSX</paypal>
-      
-    </links>
-</packageInfo>
+		</link>
+	</links>
+</package>

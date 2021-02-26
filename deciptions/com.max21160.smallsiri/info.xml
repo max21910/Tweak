@@ -1,52 +1,48 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE xml>
-<packageInfo>
-    <bundleId>com.max21160.smallsiri</bundleId>
-    <name>Smallsiri</name>
-    <version>1.2</version>
-    <descriptions>
-        <description>
-         Modernisation de siri 
-        </description>
-        <description>
-        
-           Utilisier votre iPhone tout en utilisant Siri en meme temp .
-        </description>
-        <description>
-
+<package>
+	<id>com.max21160.smallsiri</id>
+	<name>Smallsiri</name>
+	<version>1.2</version>
+	<compatibility>
+		<firmware>
+			<miniOS>12.0</miniOS>
+			<maxiOS>14.5</maxiOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+	</dependencies>
+	<shortDescription>  Modernisation de siri   Utilisier votre iPhone tout en utilisant Siri en meme temp .</shortDescription>
+	<descriptionlist>
+		        <description>
+          
             - Supporte iOS 11 a iOS 13.7           
             - Supporte  iPhone (A10 and A11 include)
             - Pas encore tester sur ipad.
 
         </description>
-    </descriptions>
-    <compatibility>
-        <miniOS>11.0</miniOS>
-        <maxiOS>13.7</maxiOS>
-    </compatibility>
-    <dependencies>
-        <dependency>mobilesubstrate</dependency>
-         </dependencies>
-    <changelog>
-        <change>
-            <changeVersion>v1.2</changeVersion>
-             <changeDescription>Fix de crash lors de la configuration dans les reglages </changeDescription>
-            <changeDescription>Initial Release</changeDescription>
-        </change>
-    </changelog>
-   
-    <information>
-        <developer>Maxime</developer>
-        <price>Gratuit</price>
-        <lastupdate>05/06/2020</lastupdate>
-        <release>05/06/2020</release>
-        <category>Thèmes</category>
-    </information>
-    <links>
-        <github>https://github.com/max21160/max21160.github.io</github>
+		</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			
+			<image>1.png</image>
+		</screenshot>		
+		<screenshot>
+			
+			<image>2.png</image>
+		</screenshot>		
+	</screenshots>
+	<changelog>
+		<change>Version 1.0</change>
+		<change></change>
+		
+	</changelog>
+	<links>
+		<link>
+			 <github>https://github.com/max21160/max21160.github.io</github>
         <twitter>https://twitter.com/Max21160</twitter>
         <mail>mailto:maxime21160@icloud.com</mail>
         <paypal>https://www.paypal.me/IOSX</paypal>
-      
-    </links>
-</packageInfo>
+		</link>
+	</links>
+</package>
