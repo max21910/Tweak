@@ -1,4 +1,4 @@
-<packageInfo>
+<package>
     <id>com.max21160.BypassIcloud</id>
     <name>BypassIcloud</name>
     <version>1.0</version>
@@ -50,4 +50,4 @@
         <paypal>https://www.paypal.me/IOSX</paypal>
       
     </links>
-</packageInfo>
+</package>
