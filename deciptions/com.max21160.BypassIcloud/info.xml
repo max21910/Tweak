@@ -1,53 +1,21 @@
 <package>
-    <id>com.max21160.BypassIcloud</id>
-    <name>BypassIcloud</name>
-    <version>1.0</version>
-    <descriptions>
-        <description>
-         Bypass icloud sur les Iphones compatible avec checkrain de l'iphone 5s jusque l'iphone X
-        </description>
-        <description>
-           Ce tweaks vous permet de reparer et utiliser l'appstore et autres service apple qui peuvent etre blocker sur un appareil Baypass
-        </description>
-        <description>
-            - Supporte iOS 12 a iOS 14
-            - Supporte pas les iPhone (A12 and A13 include)
-            - Ne fonctionne pas sur Ipad! 
-            - D'autre nouveauté arrive bientot...
-            - Crée par Maxime
-            - Pas de configuration necessaire depuis les réglage 
-           
-        </description>
-    </descriptions>
-    <compatibility>
-        <miniOS>12.0</miniOS>
-        <maxiOS>14.5</maxiOS>
-    </compatibility>
-    <dependencies>
-        <dependency>mobilesubstrate</dependency>
-         </dependencies>
-    <changelog>
-        <change>
-            <changeVersion>v1.0</changeVersion>
-            <changeDescription>Initial Release</changeDescription>
-        </change>
-    </changelog>
- <screenshots>
-    <screen>1.png</screen>
-    <screen>2.png</screen>
-</screenshots>
-    <information>
-        <developer>Maxime</developer>
-        <prix>Gratuit</prix>
-        <lastupdate>26/05/2020</lastupdate>
-        <release>26/05/2020</release>
-        <category>Tweaks</category>
-    </information>
-    <links>
-          <github>https://github.com/max21160/max21160.github.io</github>
-        <twitter>https://twitter.com/Max21160</twitter>
-        <mail>mailto:maxime21160@icloud.com</mail>
-        <paypal>https://www.paypal.me/IOSX</paypal>
-      
-    </links>
+	<id>com.max21160.BypassIcloud</id>
+	<name>BypassIcloud</name>
+	<version>1.0</version>
+	<compatibility>
+		<firmware>
+			<maxiOS>14.4</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+		
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>This is an old package. Requires iOS 14.5 and below..</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+	<links></links>
 </package>
