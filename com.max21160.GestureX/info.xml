@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<packageInfo>
+    <bundleId>com.max21160.GestureX</bundleId>
+    <name>GestureX</name>
+    <version>1.0</version>
+    <descriptions>
+        <description>
+           Ce Tweak vous permet d'ajouter les geste de l'iPhone x sur les anciens Iphone
+        </description>
+        <description>
+          Ce Tweak vous permet d'ajouter les geste de l'iPhone x sur les anciens Iphone
+        </description>
+        <description>
+            - Pas de configuration nécessaire 
+            - Supporte iOS 11 a iOS 13
+            - Supporte  iPhone 6 a iPhone 8
+            -!!!Ne marche pas entièrement sur les petit écran iPhone 5 ,5s ,5se ,iPhone se
+            le controle center fait redemarer l'appareil inopinément  
+            - D'autre nouveauté arrive bientôt
+            - crée par Max
+        </description>
+    </descriptions>
+    <compatibility>
+        <miniOS>11.0</miniOS>
+        <maxiOS>14.5</maxiOS>
+    </compatibility>
+    <dependencies>
+        <dependency>mobilesubstrate</dependency>
+         </dependencies>
+    <changelog>
+        <change>
+            <changeVersion>v1.0</changeVersion>
+            <changeDescription>Ne pas instaler sur iPhone 5 ,5s ,5se ,iPhone se</changeDescription>
+            <changeDescription>Bug sur les petit écran en cour de reglage</changeDescription>
+        </change>
+    </changelog>
+    <screenshots>
+        <screen>1.png</screen>
+        <screen>2.png</screen>
+    </screenshots>
+    <information>
+        <developer>Maxime</developer>
+        <prix>Gratuit</prix>
+        <lastupdate>09/06/2020</lastupdate>
+        <release>09/06/2020</release>
+        <category>Tweaks</category>
+    </information>
+    <links>
+         <github>https://github.com/max21160/max21160.github.io</github>
+        <twitter>https://twitter.com/Max21160</twitter>
+        <mail>mailto:maxime21160@icloud.com</mail>
+        <paypal>https://www.paypal.me/IOSX</paypal>
+      
+    </links>
+</packageInfo>

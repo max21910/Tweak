@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<packageInfo>
+    <bundleId>com.max21160.Switchlock</bundleId>
+    <name>Switchlock</name>
+    <version>1.2</version>
+    <descriptions>
+        <description>
+       Son de la switch au verouillage de l'Iphone
+        </description>
+        <description>
+           Ce tweaks vous permet de metre Son de la switch au verouillage de liphone
+        </description>
+        <description>
+           
+            - pas de  configuration depuis les réglage 
+            - Supporte iOS 12 a iOS 14
+            - D'autre nouveauté arrive bientot...
+            
+        </description>
+    </descriptions>
+    <compatibility>
+        <miniOS>12.0</miniOS>
+        <maxiOS>14.5</maxiOS>
+    </compatibility>
+    <dependencies>
+        <dependency>mobilesubstrate</dependency>
+         </dependencies>
+    <changelog>
+        <change>
+            <changeVersion>v1.2</changeVersion>
+            <changeDescription>Fix bug ou le son ne s'entendait pas </changeDescription>
+             <changeDescription>initial release</changeDescription>
+        </change>
+    </changelog>
+ <screenshots>
+    <screen>1.png</screen>
+</screenshots>
+    <information>
+        <developer>Maxime</developer>
+        <prix>Gratuit</prix>
+        <lastupdate>2/01/2021</lastupdate>
+        <release>2/01/2021</release>
+        <category>Tweaks</category>
+    </information>
+    <links>
+          <github>https://github.com/max21160/max21160.github.io</github>
+        <twitter>https://twitter.com/Max21160</twitter>
+        <mail>mailto:maxime21160@icloud.com</mail>
+        <paypal>https://www.paypal.me/IOSX</paypal>
+      
+    </links>
+</packageInfo>
