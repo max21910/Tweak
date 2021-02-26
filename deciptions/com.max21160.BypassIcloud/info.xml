@@ -13,14 +13,14 @@
 	</dependencies>
 	<shortDescription>Bypass icloud sur les Iphones compatible avec checkrain de l'iphone 5s jusque l'iphone X</shortDescription>
 	<descriptionlist>
-		        <description>
+		        <description><![CDATA[
             - Supporte iOS 12 a iOS 14
             - Supporte pas les iPhone (A12 and A13 include)
             - Ne fonctionne pas sur Ipad! 
             - D'autre nouveauté arrive bientot...
             - Crée par Maxime
             - Pas de configuration necessaire depuis les réglage 
-           
+           ]]>
         </description>
 		</description>
 	</descriptionlist>
