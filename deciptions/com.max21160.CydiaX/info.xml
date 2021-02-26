@@ -13,12 +13,12 @@
 	</dependencies>
 	<shortDescription> Nouvelle page d'accueil Pour cydia ainsi qu'un menu plus moderne</shortDescription>
 	<descriptionlist>
-		        <description>
+		        <description><![CDATA[
             - pas de configuration depuis les réglage .
             - Supporte iOS 11 a iOS 13.
             - Supporte  pas les iPhone (A12 and A13 include).
             - Pas encore tester sur ipad.
-
+	]]>
            
         </description>
 		</description>
