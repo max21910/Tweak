@@ -12,6 +12,6 @@ v13.1 mise a jour de l interface
 v13.0 initial release
 ```
 
-Ce projet Github est l interface web de la source cydia https://max21910/max21160
+Ce projet Github est l interface web de la source cydia https://max21910.github.io/max21160
 -Chaque packet contient un page web pour presenter le packet en question les pages sont mis a jour régulièrement 
 
