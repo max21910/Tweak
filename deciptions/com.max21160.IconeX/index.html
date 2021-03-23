@@ -50,8 +50,17 @@
 </panel-body>
 </div>
 <! -- Boxe version check -->
+<! -- Dark mode -->
 
+<! -- Dark mode -->
+<script src="../css/dark.js"></script>
+<script>
+  function addDarkmodeWidget() {
+    new Darkmode().showWidget();
+  }
+  window.addEventListener('load', addDarkmodeWidget);
 
+</script>
 <! -- Description -->
 
 <panel-header>
@@ -169,8 +178,10 @@
 <h5 class="mt-2 text-left"><li class="flex" style="flex-direction: row; background-color: transparent; padding-left: 0px; padding-right: 0px; flex-wrap: wrap;align-content: flex-start; padding-top: 0.5rem; padding-bottom: 0px;">
 <div class="flex items-center w-full">
 <div class="p-1 pl-0 mr-2 text-grey-dark py-0" style="padding-left: 0px;">
-<div class="w-10 h-10 overflow-hidden rounded-full block" style="border: 1px solid #f2f2f2; background-color: #f2f2f2; background-image: url(../css/profile1.png); background-size: cover; background-repeat: no-repeat; background-position: center center;">
+<div class="icon-container" style="width: 40px; height: 40px; border-radius: 100%; margin-left: 10px; overflow:hidden;">
+<img src="../css/profile1.png" style="height: 100%;" />
 </div>
+
 </div>
 <div class="w-full flex-col flex justify-between" style="flex-direction: row;max-width: calc(100% - 3.5rem);">
 <div class="">
@@ -247,28 +258,7 @@
 </div>
 </div>
 </a>
-<script>
-///by Max21910//
 
-function isIOSDevice(){
-   return !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
-function isNotIOSDevice(){
- return !!navigator.platform && /FreeBSD i386|Win32|WebTV OS/.test(navigator.platform);
-}
-if(isIOSDevice()){
-
-   write("<h1>Vous utiliser un appareil iOS sur la Repository de Max21160</h1>")
-     console.log("I am an IOS device!");
-    
-     return  isIOSDevice;
-if(isNotIOSDevice()){
-   write("<h1>Vous utiliser un appareil inconnue sur la Repository de Max21160 </h1>")
-  console.log("I am Not an IOS device!");
-     return   isNotIOSDevice;
-
- };
-
-</script>
 </panel-header>
 <a class="support-block text-grey-dark cursor-pointer bg-gray-lighter rounded text-sm py-7px-3 py-1 font-medium mt-3 flex-grow no-underline flex-inline mx-2 xs:w-full sm:w-1/3 lg:w-1/3 md:w-1/3 w-full overflow-hidden" style="visibility: hidden; border-radius: 7.5px;  background-color: transparent;">
 </a>

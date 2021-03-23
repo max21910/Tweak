@@ -50,8 +50,17 @@
 </panel-body>
 </div>
 <! -- Boxe version check -->
+<! -- Dark mode -->
 
+<! -- Dark mode -->
+<script src="../css/dark.js"></script>
+<script>
+  function addDarkmodeWidget() {
+    new Darkmode().showWidget();
+  }
+  window.addEventListener('load', addDarkmodeWidget);
 
+</script>
 <! -- Description -->
 
 <panel-header>
@@ -169,7 +178,9 @@
 <h5 class="mt-2 text-left"><li class="flex" style="flex-direction: row; background-color: transparent; padding-left: 0px; padding-right: 0px; flex-wrap: wrap;align-content: flex-start; padding-top: 0.5rem; padding-bottom: 0px;">
 <div class="flex items-center w-full">
 <div class="p-1 pl-0 mr-2 text-grey-dark py-0" style="padding-left: 0px;">
-<div class="w-10 h-10 overflow-hidden rounded-full block" style="border: 1px solid #f2f2f2; background-color: #f2f2f2; background-image: url(../css/profile1.png); background-size: cover; background-repeat: no-repeat; background-position: center center;">
+
+<div class="icon-container" style="width: 40px; height: 40px; border-radius: 100%; margin-left: 10px; overflow:hidden;">
+<img src="../css/profile1.png" style="height: 100%;" />
 </div>
 </div>
 <div class="w-full flex-col flex justify-between" style="flex-direction: row;max-width: calc(100% - 3.5rem);">
