@@ -9,8 +9,8 @@
 				{
 					"class": "DepictionMarkdownView",
 					"markdown": "## TWEAK_NAME\nSHORT_DESCRIPTION"
-					"icon": 
-					"url": "https://github.com/max21910/Tweak/blob/master/deciptions/assets/img/profile1.png?raw=true"
+					"icon":  "https://github.com/max21910/Tweak/blob/master/deciptions/assets/img/profile1.png?raw=true"
+					
 				},
 				{
 					"class": "DepictionSeparatorView"
