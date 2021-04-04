@@ -10,6 +10,7 @@
                     "title": "BypassIcloud",
                     "useBoldText": true,
                     "class": "DepictionSubheaderView"
+                    "icon": "url": "https://github.com/max21910/Tweak/blob/master/deciptions/assets/img/profile1.png?raw=true"
                 },
                 {
                     "class": "DepictionMarkdownView",
