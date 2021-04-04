@@ -69,6 +69,15 @@
 					"useBottomMargin": true,
 					"class": "DepictionSubheaderView"
 				},
+				{
+					"title": "Maxime",
+					"author": "Maxime",
+					"markdown": "string",
+					"rating": "4.665/5",
+					"useBoldText": true,
+					"useBottomMargin": true,
+					"class": "DepictionRatingView"
+				},
                 {
                 
                     "text": "Max21160",
