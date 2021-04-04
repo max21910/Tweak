@@ -9,6 +9,8 @@
 				{
 					"class": "DepictionMarkdownView",
 					"markdown": "## TWEAK_NAME\nSHORT_DESCRIPTION"
+					"icon":  "https://github.com/max21910/Tweak/blob/master/deciptions/assets/img/profile1.png?raw=true"
+					
 				},
 				{
 					"class": "DepictionSeparatorView"
@@ -29,7 +31,7 @@
 				},
 				{
 					"title": "Price",
-					"text": "PRICE",
+					"text": "Free",
 					"class": "DepictionTableTextView"
 				},
 				{
@@ -43,8 +45,8 @@
 					"class": "DepictionTableButtonView"
 				},
 				{
-					"title": "Use This Template",
-					"action": "https://github.com/syns/repo.me",
+					"title": "Github",
+					"action": "https://github.com/Max21160",
 					"class": "DepictionTableButtonView"
 				},
 				{
