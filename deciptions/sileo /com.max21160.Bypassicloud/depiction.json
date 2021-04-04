@@ -1,5 +1,5 @@
 {
-    "minVersion": "1.0",
+    "minVersion": "0.1",
     "tabs": [
         {
             "class": "DepictionStackView",
@@ -32,12 +32,21 @@
                     ]
                 },
                 {
-                    "markdown": "Nouvelle page d'accueil pour cydia\r\nNouvelle icone dans la barre de cydia\r\nSupporte iOS 11 a iOS 14.5\r\nSupporte l'iphone 5s jusque l'iphone 12 pro max Inclus.\r\nNe fonctionne pas sur Ipad!\r\nPas de configuration necessaire depuis les r\u00e9glage.",
+                    "markdown": "oNouvelle page d'accueil pour cydia\r\noNouvelle icone dans la barre de cydia\r\noSupporte iOS 11 a iOS 14.5\r\noSupporte l'iphone 5s jusque l'iphone 12 pro max Inclus.\r\noNe fonctionne pas sur Ipad!\r\noPas de configuration necessaire depuis les r\u00e9glage.",
                     "useBottomMargin": false,
                     "title": "markdown-description",
                     "useBoldText": true,
                     "class": "DepictionMarkdownView"
                 },
+                {
+					"title": "Maxime",
+					"author": "Maxime",
+					"markdown": "string",
+					"rating": "4.665/5",
+					"useBoldText": true,
+					"useBottomMargin": true,
+					"class": "DepictionRatingView"
+				},
                 {
                     "class": "DepictionSeparatorView"
                 },
@@ -60,7 +69,16 @@
                     "spacing": 8,
                     "class": "DepictionSpacerView"
                 },
-                		{
+                {
+                    "text": "Max21160",
+                    "title": "Developer",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
 			"tabname": "Changelog",
 			"views": [
 				{
@@ -70,24 +88,22 @@
 					"class": "DepictionSubheaderView"
 				},
 				{
-					"title": "Maxime",
-					"author": "Maxime",
-					"markdown": "string",
-					"rating": "4.665/5",
-					"useBoldText": true,
-					"useBottomMargin": true,
-					"class": "DepictionRatingView"
+					"markdown": "\t\n\u2022 UPDATE_DESCRIPTION",
+					"useSpacing": false,
+					"class": "DepictionMarkdownView"
 				},
-                {
-                
-                    "text": "Max21160",
-                    "title": "Developer",
-                    "class": "DepictionTableTextView"
-                },
-                {
-                    "spacing": 8,
-                    "class": "DepictionSpacerView"
-                }
+				{
+					"markdown": "<small style=\"color: #999; margin-top: -8px;\">Released RELEASE_DATE</small>",
+					"useRawFormat": true,
+					"class": "DepictionMarkdownView"
+				  },
+				{
+			"class": "DepictionStackView"
+		}
+	],
+	"class": "DepictionTabView"
+}
+
             ]
         }
     ],
