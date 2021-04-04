@@ -1,5 +1,5 @@
 {
-    "minVersion": "0.1",
+    "minVersion": "11.0",
     "tabs": [
         {
             "class": "DepictionStackView",
@@ -60,7 +60,17 @@
                     "spacing": 8,
                     "class": "DepictionSpacerView"
                 },
+                		{
+			"tabname": "Changelog",
+			"views": [
+				{
+					"title": "VERSION_NUMBER",
+					"useBoldText": true,
+					"useBottomMargin": true,
+					"class": "DepictionSubheaderView"
+				},
                 {
+                
                     "text": "Max21160",
                     "title": "Developer",
                     "class": "DepictionTableTextView"
