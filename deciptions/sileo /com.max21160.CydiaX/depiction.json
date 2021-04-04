@@ -45,8 +45,8 @@
 					"class": "DepictionTableButtonView"
 				},
 				{
-					"title": "Use This Template",
-					"action": "https://github.com/syns/repo.me",
+					"title": "Github",
+					"action": "https://github.com/Max21160",
 					"class": "DepictionTableButtonView"
 				},
 				{
