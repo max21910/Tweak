@@ -69,7 +69,36 @@
                     "spacing": 8,
                     "class": "DepictionSpacerView"
                 }
-            ]
+                        {
+            "class": "DepictionStackView",
+            "tabname": "Details",
+            "views": [
+                {
+                    "useBottomMargin": false,
+                    "title": "BypassIcloud",
+                    "useBoldText": true,
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Bypass app on bypassed device",
+                    "useSpacing": true
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "itemSize": "{160, 275.41333333333336}",
+                    "itemCornerRadius": 6,
+                    "class": "DepictionScreenshotsView",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot0",
+                            "url": "https://github.com/max21910/Tweak/blob/master/deciptions/com.max21160.Bypassicloud/screenshots/1.png?raw=true"
+                        }
+                    ]
+            
         }
     ],
     "tintColor": "#0657bb",
