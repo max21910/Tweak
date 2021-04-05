@@ -10,11 +10,10 @@
                     "title": "BypassIcloud",
                     "useBoldText": true,
                     "class": "DepictionSubheaderView"
-                    "icon": "url": "https://github.com/max21910/Tweak/blob/master/deciptions/assets/img/profile1.png?raw=true"
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "Bypass app on bypassed device",
+                    "markdown": "Bypass appstore et la 4g sur les appareil bypassr icloud",
                     "useSpacing": true
                 },
                 {
@@ -28,26 +27,17 @@
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot0",
-                            "url": "https://max21910.github.io/Tweak/deciptions/com.max21160.CydiaX/screenshots/1.png"
+                            "url": "https://github.com/max21910/Tweak/blob/master/deciptions/com.max21160.Bypassicloud/screenshots/1.png?raw=true"
                         }
                     ]
                 },
                 {
-                    "markdown": "oNouvelle page d'accueil pour cydia\r\noNouvelle icone dans la barre de cydia\r\noSupporte iOS 11 a iOS 14.5\r\noSupporte l'iphone 5s jusque l'iphone 12 pro max Inclus.\r\noNe fonctionne pas sur Ipad!\r\noPas de configuration necessaire depuis les r\u00e9glage.",
+                    "markdown": "Grace a ce tweak jailbreak vous pouvez retablire les ervice suivant.    -Icloud.   -Appstore.   -4g ",
                     "useBottomMargin": false,
                     "title": "markdown-description",
                     "useBoldText": true,
                     "class": "DepictionMarkdownView"
                 },
-                {
-					"title": "Maxime",
-					"author": "Maxime",
-					"markdown": "string",
-					"rating": "4.665/5",
-					"useBoldText": true,
-					"useBottomMargin": true,
-					"class": "DepictionRatingView"
-				},
                 {
                     "class": "DepictionSeparatorView"
                 },
@@ -57,12 +47,12 @@
                     "class": "DepictionTableTextView"
                 },
                 {
-                    "text": "04-04-2021",
+                    "text": "04-05-2021",
                     "title": "Released",
                     "class": "DepictionTableTextView"
                 },
                 {
-                    "text": "FREE",
+                    "text": "Free",
                     "title": "Price",
                     "class": "DepictionTableTextView"
                 },
@@ -71,44 +61,19 @@
                     "class": "DepictionSpacerView"
                 },
                 {
-                    "text": "Max21160",
+                    "text": "Made with ❤️ by Max21160",
                     "title": "Developer",
                     "class": "DepictionTableTextView"
                 },
                 {
                     "spacing": 8,
                     "class": "DepictionSpacerView"
-                },
-                {
-			"tabname": "Changelog",
-			"views": [
-				{
-					"title": "VERSION_NUMBER",
-					"useBoldText": true,
-					"useBottomMargin": true,
-					"class": "DepictionSubheaderView"
-				},
-				{
-					"markdown": "\t\n\u2022 UPDATE_DESCRIPTION",
-					"useSpacing": false,
-					"class": "DepictionMarkdownView"
-				},
-				{
-					"markdown": "<small style=\"color: #999; margin-top: -8px;\">Released RELEASE_DATE</small>",
-					"useRawFormat": true,
-					"class": "DepictionMarkdownView"
-				  },
-				{
-			"class": "DepictionStackView"
-		}
-	],
-	"class": "DepictionTabView"
-}
-
+                }
             ]
         }
     ],
     "tintColor": "#0657bb",
-    "headerImage": "https://max21910.github.io/Tweak/deciptions/com.max21160.CydiaX/screenshots/1.png",
+    "headerImage": "https://github.com/max21910/Tweak/blob/master/deciptions/Sileo%20/Banner/Bypassicloud.png?raw=true",
     "class": "DepictionTabView"
+}lass": "DepictionTabView"
 }
