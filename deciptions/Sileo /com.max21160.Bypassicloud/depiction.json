@@ -3,7 +3,7 @@
     "tabs": [
         {
             "class": "DepictionStackView",
-            "tabname": "",
+            "tabname": "Details",
             "views": [
                 {
                     "useBottomMargin": false,
@@ -13,7 +13,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "Bypass appstore et la 4g sur les appareil bypass icloud",
+                    "markdown": "Bypass app on bypassed device",
                     "useSpacing": true
                 },
                 {
@@ -32,7 +32,7 @@
                     ]
                 },
                 {
-                    "markdown": "Grace a ce tweak jailbreak vous pouvez r\u00e9tablire les services descativer lorsque l'iphone a été bypasser d'icloud   Attention ce Tweak est seulemet, compatible avec les apparei jailbreker avec Checkrain",
+                    "markdown": "Bypass app on bypassed deviceBypass app on bypassed deviceBypass app on bypassed deviceBypass app on bypassed deviceBypass app on bypassed deviceBypass app on bypassed deviceBypass app on bypassed deviceBypass app on bypassed deviceBypass app on bypassed deviceBypass app on bypassed deviceBypass app on bypassed devicevvBypass app on bypassed deviceBypass app on bypassed deviceBypass app on bypassed devicevBypass app on bypassed deviceBypass app on bypassed deviceBypass app on bypassed deviceBypass app on bypassed deviceBypass app on bypassed deviceBypass app on bypassed deviceBypass app on bypassed device",
                     "useBottomMargin": false,
                     "title": "markdown-description",
                     "useBoldText": true,
@@ -48,12 +48,12 @@
                 },
                 {
                     "text": "04-05-2021",
-                    "title": "Date",
+                    "title": "Released",
                     "class": "DepictionTableTextView"
                 },
                 {
                     "text": "Free",
-                    "title": "Prix",
+                    "title": "Price",
                     "class": "DepictionTableTextView"
                 },
                 {
@@ -61,10 +61,9 @@
                     "class": "DepictionSpacerView"
                 },
                 {
-                    "text": "Made with ❤️  Max21160",
+                    "text": "Max21160",
                     "title": "Developer",
                     "class": "DepictionTableTextView"
-                    "url": "https://max21910.github.io/max21160/",
                 },
                 {
                     "spacing": 8,
