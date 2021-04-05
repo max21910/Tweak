@@ -1,7 +1,10 @@
 {
     "minVersion": "0.1",
     "tabs": [
-        
+        {
+            "class": "DepictionStackView",
+            "tabname": "",
+            "views": [
                 {
                     "useBottomMargin": false,
                     "title": "BypassIcloud",
