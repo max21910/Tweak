@@ -13,7 +13,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "Bypass app on bypassed device",
+                    "markdown": "Bypass Appstore et la 4g sur les appareil bypass Icloud",
                     "useSpacing": true
                 },
                 {
@@ -28,11 +28,19 @@
                         {
                             "accessibilityText": "Screenshot0",
                             "url": "https://github.com/max21910/Tweak/blob/master/deciptions/com.max21160.Bypassicloud/screenshots/1.png?raw=true"
+                        },
+                        {
+                            "accessibilityText": "Screenshot1",
+                            "url": "https://github.com/max21910/Tweak/blob/master/deciptions/com.max21160.Bypassicloud/screenshots/2.png?raw=true"
+                        },
+                        {
+                            "accessibilityText": "Screenshot2",
+                            "url": "https://github.com/max21910/Tweak/blob/master/deciptions/com.max21160.Bypassicloud/screenshots/3.png?raw=true"
                         }
                     ]
                 },
                 {
-                    "markdown": "Bypass app on bypassed deviceBypass app on bypassed deviceBypass app on bypassed deviceBypass app on bypassed deviceBypass app on bypassed deviceBypass app on bypassed deviceBypass app on bypassed deviceBypass app on bypassed deviceBypass app on bypassed deviceBypass app on bypassed deviceBypass app on bypassed devicevvBypass app on bypassed deviceBypass app on bypassed deviceBypass app on bypassed devicevBypass app on bypassed deviceBypass app on bypassed deviceBypass app on bypassed deviceBypass app on bypassed deviceBypass app on bypassed deviceBypass app on bypassed deviceBypass app on bypassed device",
+                    "markdown": "Ce tweak permet de refaire fonctionner les services d'apple. Il suffit d'installer ce tweak et de redemarer l'iphone",
                     "useBottomMargin": false,
                     "title": "markdown-description",
                     "useBoldText": true,
@@ -75,29 +83,4 @@
     "tintColor": "#0657bb",
     "headerImage": "https://github.com/max21910/Tweak/blob/master/deciptions/Sileo%20/Banner/Bypassicloud.png?raw=true",
     "class": "DepictionTabView"
-},
-{
-			"tabname": "Changelog",
-			"views": [
-				{
-					"title": "VERSION_NUMBER",
-					"useBoldText": true,
-					"useBottomMargin": true,
-					"class": "DepictionSubheaderView"
-				},
-				{
-					"markdown": "\t\n\u2022 UPDATE_DESCRIPTION",
-					"useSpacing": false,
-					"class": "DepictionMarkdownView"
-				},
-				{
-					"markdown": "<small style=\"color: #999; margin-top: -8px;\">Released RELEASE_DATE</small>",
-					"useRawFormat": true,
-					"class": "DepictionMarkdownView"
-				}
-			],
-			"class": "DepictionStackView"
-		}
-	],
-	"class": "DepictionTabView"
 }
