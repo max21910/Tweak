@@ -32,6 +32,39 @@
                     ]
                 },
                 {
+    "minVersion": "0.1",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "changelog",
+            "views": [
+                {
+                    "useBottomMargin": false,
+                    "title": "BypassIcloud",
+                    "useBoldText": true,
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "test",
+                    "useSpacing": true
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "itemSize": "{160, 275.41333333333336}",
+                    "itemCornerRadius": 6,
+                    "class": "DepictionScreenshotsView",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot0",
+                            "url": "https://github.com/max21910/Tweak/blob/master/deciptions/com.max21160.Bypassicloud/screenshots/1.png?raw=true"
+                        }
+                    ]
+                },
+                {
                     "markdown": "Grace a ce tweak jailbreak vous pouvez r\u00e9tablire les services descativer lorsque l'iphone a été bypasser d'icloud   Attention ce Tweak est seulemet, compatible avec les apparei jailbreker avec Checkrain",
                     "useBottomMargin": false,
                     "title": "markdown-description",
