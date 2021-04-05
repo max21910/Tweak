@@ -1,0 +1,114 @@
+{
+    "minVersion": "0.1",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "Details",
+            "views": [
+                {
+                    "useBottomMargin": false,
+                    "title": "BypassIcloud",
+                    "useBoldText": true,
+                    "class": "DepictionSubheaderView"
+                    "icon": "url": "https://github.com/max21910/Tweak/blob/master/deciptions/assets/img/profile1.png?raw=true"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Bypass app on bypassed device",
+                    "useSpacing": true
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "itemSize": "{160, 275.41333333333336}",
+                    "itemCornerRadius": 6,
+                    "class": "DepictionScreenshotsView",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot0",
+                            "url": "https://max21910.github.io/Tweak/deciptions/com.max21160.CydiaX/screenshots/1.png"
+                        }
+                    ]
+                },
+                {
+                    "markdown": "oNouvelle page d'accueil pour cydia\r\noNouvelle icone dans la barre de cydia\r\noSupporte iOS 11 a iOS 14.5\r\noSupporte l'iphone 5s jusque l'iphone 12 pro max Inclus.\r\noNe fonctionne pas sur Ipad!\r\noPas de configuration necessaire depuis les r\u00e9glage.",
+                    "useBottomMargin": false,
+                    "title": "markdown-description",
+                    "useBoldText": true,
+                    "class": "DepictionMarkdownView"
+                },
+                {
+					"title": "Maxime",
+					"author": "Maxime",
+					"markdown": "string",
+					"rating": "4.665/5",
+					"useBoldText": true,
+					"useBottomMargin": true,
+					"class": "DepictionRatingView"
+				},
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "text": "2.0",
+                    "title": "Version",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "text": "04-04-2021",
+                    "title": "Released",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "text": "FREE",
+                    "title": "Price",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "text": "Max21160",
+                    "title": "Developer",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+			"tabname": "Changelog",
+			"views": [
+				{
+					"title": "VERSION_NUMBER",
+					"useBoldText": true,
+					"useBottomMargin": true,
+					"class": "DepictionSubheaderView"
+				},
+				{
+					"markdown": "\t\n\u2022 UPDATE_DESCRIPTION",
+					"useSpacing": false,
+					"class": "DepictionMarkdownView"
+				},
+				{
+					"markdown": "<small style=\"color: #999; margin-top: -8px;\">Released RELEASE_DATE</small>",
+					"useRawFormat": true,
+					"class": "DepictionMarkdownView"
+				  },
+				{
+			"class": "DepictionStackView"
+		}
+	],
+	"class": "DepictionTabView"
+}
+
+            ]
+        }
+    ],
+    "tintColor": "#0657bb",
+    "headerImage": "https://max21910.github.io/Tweak/deciptions/com.max21160.CydiaX/screenshots/1.png",
+    "class": "DepictionTabView"
+}
