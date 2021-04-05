@@ -13,7 +13,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "Bypass appstore et la 4g sur les appareil bypassr icloud",
+                    "markdown": "Bypass appstore et la 4g sur les appareil bypass icloud",
                     "useSpacing": true
                 },
                 {
@@ -32,7 +32,7 @@
                     ]
                 },
                 {
-                    "markdown": "Grace a ce tweak jailbreak vous pouvez retablire les ervice suivant.    -Icloud.   -Appstore.   -4g ",
+                    "markdown": "Grace a ce tweak jailbreak vous pouvez r\u00e9tablire les services",
                     "useBottomMargin": false,
                     "title": "markdown-description",
                     "useBoldText": true,
@@ -61,7 +61,7 @@
                     "class": "DepictionSpacerView"
                 },
                 {
-                    "text": "Made with ❤️ by Max21160",
+                    "text": "Max21160",
                     "title": "Developer",
                     "class": "DepictionTableTextView"
                 },
