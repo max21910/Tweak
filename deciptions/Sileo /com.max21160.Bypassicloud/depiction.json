@@ -48,12 +48,12 @@
                 },
                 {
                     "text": "04-05-2021",
-                    "title": "Released",
+                    "title": "Date",
                     "class": "DepictionTableTextView"
                 },
                 {
                     "text": "Free",
-                    "title": "Price",
+                    "title": "Prix",
                     "class": "DepictionTableTextView"
                 },
                 {
@@ -64,6 +64,7 @@
                     "text": "Made with ❤️  Max21160",
                     "title": "Developer",
                     "class": "DepictionTableTextView"
+                    "url": "https://max21910.github.io/max21160/",
                 },
                 {
                     "spacing": 8,
