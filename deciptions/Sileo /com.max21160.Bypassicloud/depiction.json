@@ -22,7 +22,7 @@
                 },
                 {
                     "itemSize": "{160, 275.41333333333336}",
-                    "itemCornerRadius": 6,
+                    "itemCornerRadius": 9,
                     "class": "DepictionScreenshotsView",
                     "screenshots": [
                         {
@@ -40,7 +40,7 @@
                     ]
                 },
                 {
-                    "markdown": "Se Tweak permettent de refaire fonctionner les services d'apple. Il suffit d'installer se tweak et de redémarre l'iphone.  Une fois l'iphone redémarre vos services tels qu'ilot , appstore, sauvegarde Itunes etc. devront refonctionner normalement attention selon certain cas le tweak ne peut pas fonctionner correctement sur votre iphone. Dans ce cas il suffit simplement du de s'installer et attendre la prochaine mise à jour. chaque mise à jour apporte un meilleur compatibiliser entre les iphones et les versions d'Ios",
+                    "markdown": "Se Tweak permettent de refaire fonctionner les services d'apple. Il suffit d'installer se tweak et de redémarre l'iphone. Une fois l'iphone redémarre vos services tels qu'Icloud, Appstore, Sauvegarde Itunes etc... devrait refonctionner normalement attention selon certain cas le Tweak ne peut pas fonctionner correctement sur votre iphone. Dans ce cas il suffit simplement de désinstaller et attendre la prochaine mise à jour. chaque mise à jour apporte une meilleur compatibiliser entre les iphones et les versions d'Ios",
                     "useBottomMargin": false,
                     "title": "markdown-description",
                     "useBoldText": true,
