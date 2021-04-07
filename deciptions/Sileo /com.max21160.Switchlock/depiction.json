@@ -4,15 +4,6 @@
   "tintColor": "Tint Color",
   "tabs": [
     {
-      "tabname": "Details",
-      "views": [
-        {
-          "title": "Package Name",
-          "useBoldText": true,
-          "useBottomMargin": false,
-          "class": "DepictionSubheaderView"
-        },
-        {
           "itemCornerRadius": 6,
           "itemSize": "{160, 275.41333333333336}",
           "screenshots": [
@@ -23,6 +14,11 @@
             }
           ],
           "class": "DepictionScreenshotsView"
+        },
+        {
+          "markdown": "Titre du packet",
+          "useSpacing": true,
+          "class": "DepictionHeaderView"
         },
         {
           "markdown": "Package Description",
