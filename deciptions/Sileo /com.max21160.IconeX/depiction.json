@@ -1,82 +1,90 @@
 {
-    "minVersion": "0.1",
-    "tabs": [
+  "minVersion": "0.1",
+  "headerImage": "Header Image URL",
+  "tintColor": "Tint Color",
+  "tabs": [
+    {
+          "itemCornerRadius": 6,
+          "itemSize": "{160, 275.41333333333336}",
+          "screenshots": [
+            {
+              "accessibilityText": "Screenshot",
+              "url": "Screenshot URL 1",
+              "fullSizeURL": "Screenshot URL 1"
+            }
+          ],
+          "class": "DepictionScreenshotsView"
+        },
         {
-            "class": "DepictionStackView",
-            "tabname": "Details",
-            "views": [
-                {
-                    "useBottomMargin": false,
-                    "title": "IconeX",
-                    "useBoldText": true,
-                    "class": "DepictionSubheaderView"
-                },
-                {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "Th\u00e8me fingale .IconeX est un theme d'icone animer ",
-                    "useSpacing": true
-                },
-                {
-                    "spacing": 8,
-                    "class": "DepictionSpacerView"
-                },
-                {
-                    "itemSize": "{160, 275.41333333333336}",
-                    "itemCornerRadius": 6,
-                    "class": "DepictionScreenshotsView",
-                    "screenshots": [
-                        {
-                            "accessibilityText": "Screenshot0",
-                            "url": "https://github.com/max21910/Tweak/blob/master/deciptions/com.max21160.IconeX/screenshots/1.png?raw=true"
-                        },
-                        {
-                            "accessibilityText": "Screenshot1",
-                            "url": "https://github.com/max21910/Tweak/blob/master/deciptions/com.max21160.IconeX/screenshots/2.png?raw=true"
-                        }
-                    ]
-                },
-                {
-                    "markdown": "Th\u00e8me fingale .IconeX est un theme d'icone animer .pas de configuration necessaire ",
-                    "useBottomMargin": false,
-                    "title": "markdown-description",
-                    "useBoldText": true,
-                    "class": "DepictionMarkdownView"
-                },
-                {
-                    "class": "DepictionSeparatorView"
-                },
-                {
-                    "text": "1.0",
-                    "title": "Version",
-                    "class": "DepictionTableTextView"
-                },
-                {
-                    "text": "04-05-2021",
-                    "title": "Released",
-                    "class": "DepictionTableTextView"
-                },
-                {
-                    "text": "Free",
-                    "title": "Price",
-                    "class": "DepictionTableTextView"
-                },
-                {
-                    "spacing": 8,
-                    "class": "DepictionSpacerView"
-                },
-                {
-                    "text": "Max21160",
-                    "title": "Developer",
-                    "class": "DepictionTableTextView"
-                },
-                {
-                    "spacing": 8,
-                    "class": "DepictionSpacerView"
-                }
-            ]
+          "markdown": "Titre du packet",
+          "useSpacing": true,
+          "class": "DepictionHeaderView"
+        },
+        {
+          "markdown": "Package Description",
+          "useSpacing": true,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "title": "Latest Version",
+          "class": "DepictionHeaderView"
+        },
+        {
+          "title": "Version",
+          "text": "Latest Version Number",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Released",
+          "text": "Latest Release Date",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Price",
+          "text": "Package Price",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Developer",
+          "text": "Package Developer",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Contact Support",
+          "action": "Support URL",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "spacing": 16,
+          "class": "DepictionSpacerView"
+        },
+        {
+          "spacing": 20,
+          "class": "DepictionSpacerView"
         }
-    ],
-    "tintColor": "#0657bb",
-    "headerImage": "https://github.com/max21910/Tweak/blob/master/deciptions/Sileo%20/Banner/IconeX.png?raw=truehttps://github.com/max21910/Tweak/blob/master/deciptions/Sileo%20/Banner/GestureX.png?raw=true",
-    "class": "DepictionTabView"
+      ],
+      "class": "DepictionStackView"
+    },
+    {
+      "tabname": "Changelog",
+      "views": [
+		{
+          "title": "Version Number",
+          "useBoldText": true,
+          "useBottomMargin": true,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "\t\n\u2022 Version Changes",
+          "useSpacing": false,
+          "class": "DepictionMarkdownView"
+        }
+      ],
+      "class": "DepictionStackView"
+    }
+  ],
+  "class": "DepictionTabView"
 }
