@@ -18,14 +18,14 @@
           "screenshots": [
             {
               "accessibilityText": "Screenshot",
-              "url": "Screenshot URL 1",
-              "fullSizeURL": "Screenshot URL 1"
+              "url": "https://github.com/max21910/Tweak/blob/master/deciptions/Sileo%20/com.max21160.update/1.png?raw=true",
+              "fullSizeURL": "https://github.com/max21910/Tweak/blob/master/deciptions/Sileo%20/com.max21160.update/1.png?raw=true"
             }
           ],
           "class": "DepictionScreenshotsView"
         },
         {
-          "markdown": "Max Repo est actuellement en maintenace nous nous excusons pour la gêne ocasionner",
+          "markdown": "Max Repo est actuellement en maintenace nous nous excusons pour la gêne ocasionner vous pouver encore telecharger nos packet mais les depiction ne sont plus disponible pour environ 1 à 2 heur",
           "useSpacing": true,
           "class": "DepictionMarkdownView"
         },
@@ -53,7 +53,7 @@
         },
         {
           "title": "Developer",
-          "text": "Package Developer",
+          "text": "Max21160",
           "class": "DepictionTableTextView"
         },
         {
@@ -82,7 +82,7 @@
           "class": "DepictionSubheaderView"
         },
         {
-          "markdown": "\t\n\u2022 Version Changes",
+          "markdown": "\t\n\u2022 Update en cours",
           "useSpacing": false,
           "class": "DepictionMarkdownView"
         }
