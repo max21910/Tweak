@@ -1,106 +1,202 @@
-
 {
-   "minVersion": "0.1",
-   "class": "DepictionTabView",
-   "tintColor": "Tint Color",
-   "headerImage": "Header Image URL",
-   "tabs": [
-      {
-         "tabname": "Details",
-         "class": "DepictionStackView",
-         "tintColor": "Tint Color",
-         "views": [
-            {
-               "class": "DepictionSubheaderView",
-               "useBoldText": true,
-               "useBottomMargin": false,
-               "title": "Description"
-            },
-            {
-               "class": "DepictionMarkdownView",
-               "markdown": "<p>Package Description<\/p>",
-               "useRawFormat": true
-            },
-            {
-               "class": "DepictionSubheaderView",
-               "useBoldText": true,
-               "useBottomMargin": false,
-               "title": ""
-            },
-            {
-               "class": "DepictionScreenshotsView",
-               "itemCornerRadius": 6,
-               "itemSize": "{160, 284.44444444444}",
-               "screenshots": [
-                  {
-                     "accessibilityText": "Screenshot",
-                     "url": "Screenshot URL 1",
-                     "fullSizeURL": "Screenshot URL 1"
-                  }
-               ]
-            },
-            {
-               "class": "DepictionSeparatorView"
-            },
-            {
-               "class": "DepictionSubheaderView",
-               "useBoldText": true,
-               "useBottomMargin": false,
-               "title": "Information"
-            },
-            {
-               "class": "DepictionTableTextView",
-               "title": "Author",
-               "text": "Package Developer"
-            },
-            {
-               "class": "DepictionTableTextView",
-               "title": "Version",
-               "text": "Latest Version Number"
-            },
-            {
-               "class": "DepictionTableTextView",
-               "title": "Price",
-               "text": "Package Price"
-            },
-            {
-               "class": "DepictionSpacerView",
-               "spacing": 16
-            },
-            {
-               "class": "DepictionStackView",
-               "views": [
-                  {
-                     "class": "DepictionTableButtonView",
-                     "title": "Support",
-                     "action": "Support URL",
-                     "openExternal": true
-                  }
-               ]
-            },
-            {
-               "class": "DepictionSpacerView",
-               "spacing": 16
-            }
-         ]
-      },
-      {
-         "tabname": "Changelog",
-         "class": "DepictionStackView",
-         "tintColor": "Tint Color",
-         "views": [
-            {
-               "class": "DepictionSubheaderView",
-               "useBoldText": true,
-               "useBottomMargin": false,
-               "title": "Version Number"
-            },
-            {
-               "class": "DepictionMarkdownView",
-               "markdown": "<ul>\n<li>Version Changes<\/li>\n<\/ul>",
-               "useRawFormat": true
-            }
-         ]
-      }
-   ]
+    "minVersion": "0.4",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabs": 0,
+            "tabname": "  ",
+            "views": [
+                
+                   
+                
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "itemSize": "{160, 225.41333333333336}",
+                    "itemCornerRadius": 21,
+                    "class": "DepictionScreenshotsView",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot0",
+                            "url": "https://github.com/max21910/Tweak/blob/master/deciptions/Cydia/com.max21160.IconeX/screenshots/1.png?raw=true"
+                        }
+                       
+                    ]
+                },
+                {
+                    "useBottomMargin": false,
+                    "title": "IconeX:",
+                    "useBoldText": true,
+                    "fontWeight": "black",
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                    "markdown": "⸰Grâce à se Tweak vous pouvez ajouter Des icones animer sur votre iphone.",
+                    "useBottomMargin": false,
+                    "title": "markdown-description",
+                    "useBoldText": true,
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "useBottomMargin": false,
+                    "title":"-Description:",
+                    "useBoldText": false,
+                    "fontWeight": "black",
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                
+                    "markdown": "⸰Les réglages sont simple ils suffit d'installer ce Tweak et de selectionner ce thèmes dasn les reglages de Fingale",
+                    "useBottomMargin": false,
+                    "title": "markdown-description",
+                    "useBoldText": true,
+                    "class": "DepictionMarkdownView"
+                },
+                      {
+                    "useBottomMargin": false,
+                    "title": "-Une nouvelle expérience",
+                    "useBoldText": false,
+                    "fontWeight": "black",
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                
+                    "markdown": "⸰changer votre regarde sur votre iphone et demarquer vous des autres utilisateurs ",
+                    "useBottomMargin": false,
+                    "title": "markdown-description",
+                    "useBoldText": true,
+                    "class": "DepictionMarkdownView"
+                },      {
+                    "useBottomMargin": false,
+                    "title": "-fonctionne avec Fingale",
+                    "useBoldText": false,
+                    "fontWeight": "black",
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                
+                    "markdown": "⸰Ce Tweak foncctionne seulement avec Fingale vous pouver le retrouver ici: me.chewitt.fingal ",
+                    "useBottomMargin": false,
+                    "title": "markdown-description",
+                    "useBoldText": true,
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "text": "1.0",
+                    "title": "Version",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "text": "20-01-2020",
+                    "title": "Date:",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "text": "Free",
+                    "title": "Prix:",
+                    "class": "DepictionTableTextView"
+                },
+                
+                {
+                   
+                    "text": "Max21160",
+                    "title": "Developpeur:",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                   
+                    "text": "",
+                    "title": "Commentaires:",
+                    "class": "DepictionTableTextView"
+                },
+                { 
+                   "title": "Rien a dire",
+                   "author": " Annonyme",
+                   "markdown": "Le tweak fonctionne parfaitement ",
+                   "rating": "5",
+                   "class": "DepictionReviewView"
+
+                },
+                  { 
+                   "title": "Aucun commentaire",
+                   "author": " ",
+                   "markdown": " ",
+                   "rating": "0",
+                   "class": "DepictionReviewView"
+
+                },
+                {    
+                  
+                  "action": "https://max21910.github.io/max21160/com",
+                   "text": "Mettre un commentaire en ligne.",
+                   "tintColor": "#3E9AF6",
+                  "class" : "DepictionButtonView"
+                  
+                 },
+                 {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                
+                {    
+                  "title": "Website",
+                  "action": "https://max21910.github.io/max21160",
+                  "tintColor": "#EDB832",
+                  "class" : "DepictionTableButtonView"
+                  
+                 },
+                 {    
+                     
+                    "title": "Support",
+                     "tintColor": "#EDB832",
+                    "action": "mailto:maxime21160@icloud.com",
+                   "class" : "DepictionTableButtonView"
+                 },
+                 {    
+                     
+                    "title": "Twitter",
+                     "tintColor": "#EDB832",
+                    "action": "https://twitter.com/Max21160/",
+                   "class" : "DepictionTableButtonView"
+                 },
+                 {    
+                     
+                    "title": "Github",
+                     "tintColor": "#EDB832",
+                    "action": "https://github.com/max21910/",
+                   "class" : "DepictionTableButtonView"
+                 },
+                 
+                 
+                {
+                    "spacing": 5,
+                    "class": "DepictionSpacerView"
+                },
+                 {
+                    "itemSize": "{16, 80.}",
+                    "itemCornerRadius": 21,
+                    "class": "DepictionScreenshotsView",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot0",
+                            "url": "https://github.com/max21910/max21160/blob/main/CydiaIcon.png?raw=true"
+                        }
+                       
+                    ]
+                }
+            ]
+        }
+    ],
+    "tintColor": "#0657bb",
+    "headerImage": "https://github.com/max21910/Tweak/blob/master/deciptions/Sileo%20/Banner/IconeX.png?raw=true",
+    "class": "DepictionTabView"
 }

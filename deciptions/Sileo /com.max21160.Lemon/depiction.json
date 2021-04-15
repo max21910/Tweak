@@ -1,46 +1,87 @@
 {
-    "minVersion": "0.1",
+    "minVersion": "0.4",
     "tabs": [
         {
             "class": "DepictionStackView",
-            "tabname": "Details",
+            "tabs": 0,
+            "tabname": "  ",
             "views": [
-                {
-                    "useBottomMargin": false,
-                    "title": "Lemon",
-                    "useBoldText": true,
-                    "class": "DepictionSubheaderView"
-                },
-                {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "Th\u00e8me snowboard .IconeX est un theme d'icone ",
-                    "useSpacing": true
-                },
+                
+                   
+                
                 {
                     "spacing": 8,
                     "class": "DepictionSpacerView"
                 },
                 {
-                    "itemSize": "{160, 275.41333333333336}",
-                    "itemCornerRadius": 6,
+                    "itemSize": "{160, 295.41333333333336}",
+                    "itemCornerRadius": 21,
                     "class": "DepictionScreenshotsView",
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot0",
-                            "url": "https://github.com/max21910/Tweak/blob/master/deciptions/com.max21160.Lemon/screenshots/1.png?raw=true"
+                            "url": "https://github.com/max21910/Tweak/blob/master/deciptions/Cydia/max21160.Lemon/screenshots/1.png?raw=true"
                         },
                         {
-                            "accessibilityText": "Screenshot1",
-                            "url": "https://github.com/max21910/Tweak/blob/master/deciptions/com.max21160.Lemon/screenshots/2.png?raw=true"
-                        },
-                        {
-                            "accessibilityText": "Screenshot2",
-                            "url": "https://github.com/max21910/Tweak/blob/master/deciptions/com.max21160.Lemon/screenshots/3.png?raw=true"
+                            "accessibilityText": "Screenshot0",
+                            "url": "https://github.com/max21910/Tweak/blob/master/deciptions/Cydia/com.max21160.Lemon/screenshots/2.png?raw=true"
                         }
+                       
                     ]
                 },
                 {
-                    "markdown": "Th\u00e8me fingale .IconeX est un theme d'icone. configuration necessaire dans les reglages",
+                    "useBottomMargin": false,
+                    "title": "Lemon:",
+                    "useBoldText": true,
+                    "fontWeight": "black",
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                    "markdown": "⸰Grâce à se Tweak vous pouvez ajouter Des icones personaliser sur votre iphone.",
+                    "useBottomMargin": false,
+                    "title": "markdown-description",
+                    "useBoldText": true,
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "useBottomMargin": false,
+                    "title":"-Description:",
+                    "useBoldText": false,
+                    "fontWeight": "black",
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                
+                    "markdown": "⸰Les réglages sont simple ils suffit d'installer ce Tweak et de selectionner ce thèmes dans les reglages de Snowboard",
+                    "useBottomMargin": false,
+                    "title": "markdown-description",
+                    "useBoldText": true,
+                    "class": "DepictionMarkdownView"
+                },
+                      {
+                    "useBottomMargin": false,
+                    "title": "-Une nouvelle expérience",
+                    "useBoldText": false,
+                    "fontWeight": "black",
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                
+                    "markdown": "⸰changer votre regarde sur votre iphone et demarquer vous des autres utilisateurs ",
+                    "useBottomMargin": false,
+                    "title": "markdown-description",
+                    "useBoldText": true,
+                    "class": "DepictionMarkdownView"
+                },      {
+                    "useBottomMargin": false,
+                    "title": "-fonctionne avec Snowboard",
+                    "useBoldText": false,
+                    "fontWeight": "black",
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                
+                    "markdown": "⸰Ce Tweak foncctionne seulement avec Snowboard vous pouver le retrouver ici:  com.spark.snowboardl ",
                     "useBottomMargin": false,
                     "title": "markdown-description",
                     "useBoldText": true,
@@ -50,37 +91,119 @@
                     "class": "DepictionSeparatorView"
                 },
                 {
-                    "text": "1.3",
+                    "text": "1.2",
                     "title": "Version",
                     "class": "DepictionTableTextView"
                 },
                 {
-                    "text": "04-05-2021",
-                    "title": "Released",
+                    "text": "08-08-2020",
+                    "title": "Date:",
                     "class": "DepictionTableTextView"
                 },
                 {
                     "text": "Free",
-                    "title": "Price",
+                    "title": "Prix:",
                     "class": "DepictionTableTextView"
                 },
+                
                 {
-                    "spacing": 8,
-                    "class": "DepictionSpacerView"
-                },
-                {
+                   
                     "text": "Max21160",
-                    "title": "Developer",
+                    "title": "Developpeur:",
                     "class": "DepictionTableTextView"
                 },
                 {
                     "spacing": 8,
                     "class": "DepictionSpacerView"
+                },
+                {
+                   
+                    "text": "",
+                    "title": "Commentaires:",
+                    "class": "DepictionTableTextView"
+                },
+                { 
+                   "title": "Magnifique",
+                   "author": " Pierre",
+                   "markdown": "Ce thèmes est incroyable ",
+                   "rating": "5",
+                   "class": "DepictionReviewView"
+
+                },
+                  { 
+                   "title": "Aucun commentaire",
+                   "author": " ",
+                   "markdown": " ",
+                   "rating": "0",
+                   "class": "DepictionReviewView"
+
+                },
+                {    
+                  
+                  "action": "https://max21910.github.io/max21160/com",
+                   "text": "Mettre un commentaire en ligne.",
+                   "tintColor": "#3E9AF6",
+                  "class" : "DepictionButtonView"
+                  
+                 },
+                 {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                
+                {    
+                  "title": "Website",
+                  "action": "https://max21910.github.io/max21160",
+                  "tintColor": "#EDB832",
+                  "class" : "DepictionTableButtonView"
+                  
+                 },
+                 {    
+                     
+                    "title": "Support",
+                     "tintColor": "#EDB832",
+                    "action": "mailto:maxime21160@icloud.com",
+                   "class" : "DepictionTableButtonView"
+                 },
+                 {    
+                     
+                    "title": "Twitter",
+                     "tintColor": "#EDB832",
+                    "action": "https://twitter.com/Max21160/",
+                   "class" : "DepictionTableButtonView"
+                 },
+                 {    
+                     
+                    "title": "Github",
+                     "tintColor": "#EDB832",
+                    "action": "https://github.com/max21910/",
+                   "class" : "DepictionTableButtonView"
+                 },
+                 
+                 
+                {
+                    "spacing": 5,
+                    "class": "DepictionSpacerView"
+                },
+                 {
+                    "itemSize": "{16, 80.}",
+                    "itemCornerRadius": 21,
+                    "class": "DepictionScreenshotsView",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot0",
+                            "url": "https://github.com/max21910/max21160/blob/main/CydiaIcon.png?raw=true"
+                        }
+                       
+                    ]
                 }
             ]
         }
     ],
     "tintColor": "#0657bb",
-    "headerImage": "https://github.com/max21910/Tweak/blob/master/deciptions/Sileo%20/Banner/Lemon.png?raw=true",
+    "headerImage": "https://github.com/max21910/Tweak/blob/master/deciptions/Sileo%20/Banner/IconeX.png?raw=true",
     "class": "DepictionTabView"
 }
+
+
+

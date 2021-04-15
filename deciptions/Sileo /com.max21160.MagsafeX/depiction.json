@@ -1,47 +1,79 @@
 {
-    "minVersion": "0.1",
+    "minVersion": "0.4",
     "tabs": [
         {
             "class": "DepictionStackView",
-            "tabname": "Details",
+            "tabs": 0,
+            "tabname": "  ",
             "views": [
-                {
-                    "useBottomMargin": false,
-                    "title": "MagSafeX",
-                    "useBoldText": true,
-                    "class": "DepictionSubheaderView"
-                },
-                {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "Animation de l'iphone 12 sur les anciens Iphone",
-                    "useSpacing": true
-                },
+                
+                   
+                
                 {
                     "spacing": 8,
                     "class": "DepictionSpacerView"
                 },
                 {
-                    "itemSize": "{160, 275.41333333333336}",
-                    "itemCornerRadius": 6,
+                    "itemSize": "{160, 295.41333333333336}",
+                    "itemCornerRadius": 21,
                     "class": "DepictionScreenshotsView",
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot0",
-                            "url": "https://github.com/max21910/Tweak/blob/master/deciptions/com.max21160.MagsafeX/screenshots/1.png?raw=true"
+                            "url": "https://github.com/max21910/Tweak/blob/master/deciptions/Cydia/com.max21160.MagsafeX/screenshots/1.png?raw=true"
                         },
                         {
-                            "accessibilityText": "Screenshot1",
-                            "url": "https://github.com/max21910/Tweak/blob/master/deciptions/com.max21160.MagsafeX/screenshots/2.png?raw=true"
+                            "accessibilityText": "Screenshot0",
+                            "url": "https://github.com/max21910/Tweak/blob/master/deciptions/Cydia//com.max21160.MagsafeX/screenshots/2.png?raw=true"
                         }
+                       
                     ]
                 },
                 {
-                    "markdown": "Ce tweak permet de mettre l'Animation de l'iPhone 12 sur les anciens Iphone pas de configuration n\u00e9cessaire ",
+                    "useBottomMargin": false,
+                    "title": "MagsafeX:",
+                    "useBoldText": true,
+                    "fontWeight": "black",
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                    "markdown": "⸰Grâce à se Tweak vous pouvez ajouter L'animation de charge des iphone 12 sur les ancien Iphones.",
                     "useBottomMargin": false,
                     "title": "markdown-description",
                     "useBoldText": true,
                     "class": "DepictionMarkdownView"
                 },
+                {
+                    "useBottomMargin": false,
+                    "title":"-Description:",
+                    "useBoldText": false,
+                    "fontWeight": "black",
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                
+                    "markdown": "⸰Les réglages sont simple ils suffit d'installer ce Tweak et de brancher son iphones pour voir l'animation",
+                    "useBottomMargin": false,
+                    "title": "markdown-description",
+                    "useBoldText": true,
+                    "class": "DepictionMarkdownView"
+                },
+                      {
+                    "useBottomMargin": false,
+                    "title": "-Une nouvelle expérience",
+                    "useBoldText": false,
+                    "fontWeight": "black",
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                
+                    "markdown": "⸰changer votre regarde sur votre iphone et demarquer vous des autres utilisateurs ",
+                    "useBottomMargin": false,
+                    "title": "markdown-description",
+                    "useBoldText": true,
+                    "class": "DepictionMarkdownView"
+                },      
+                
                 {
                     "class": "DepictionSeparatorView"
                 },
@@ -51,27 +83,106 @@
                     "class": "DepictionTableTextView"
                 },
                 {
-                    "text": "04-05-2021",
-                    "title": "Released",
+                    "text": "01-03-2021",
+                    "title": "Date:",
                     "class": "DepictionTableTextView"
                 },
                 {
                     "text": "Free",
-                    "title": "Price",
+                    "title": "Prix:",
                     "class": "DepictionTableTextView"
                 },
+                
                 {
-                    "spacing": 8,
-                    "class": "DepictionSpacerView"
-                },
-                {
+                   
                     "text": "Max21160",
-                    "title": "Developer",
+                    "title": "Developpeur:",
                     "class": "DepictionTableTextView"
                 },
                 {
                     "spacing": 8,
                     "class": "DepictionSpacerView"
+                },
+                {
+                   
+                    "text": "",
+                    "title": "Commentaires:",
+                    "class": "DepictionTableTextView"
+                },
+                { 
+                   "title": "Juste ce qu'il me manquait",
+                   "author": " Lola",
+                   "markdown": "Cette animation est superbe ",
+                   "rating": "5",
+                   "class": "DepictionReviewView"
+
+                },
+                  { 
+                   "title": "Aucun commentaire",
+                   "author": " ",
+                   "markdown": " ",
+                   "rating": "0",
+                   "class": "DepictionReviewView"
+
+                },
+                {    
+                  
+                  "action": "https://max21910.github.io/max21160/com",
+                   "text": "Mettre un commentaire en ligne.",
+                   "tintColor": "#3E9AF6",
+                  "class" : "DepictionButtonView"
+                  
+                 },
+                 {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                
+                {    
+                  "title": "Website",
+                  "action": "https://max21910.github.io/max21160",
+                  "tintColor": "#EDB832",
+                  "class" : "DepictionTableButtonView"
+                  
+                 },
+                 {    
+                     
+                    "title": "Support",
+                     "tintColor": "#EDB832",
+                    "action": "mailto:maxime21160@icloud.com",
+                   "class" : "DepictionTableButtonView"
+                 },
+                 {    
+                     
+                    "title": "Twitter",
+                     "tintColor": "#EDB832",
+                    "action": "https://twitter.com/Max21160/",
+                   "class" : "DepictionTableButtonView"
+                 },
+                 {    
+                     
+                    "title": "Github",
+                     "tintColor": "#EDB832",
+                    "action": "https://github.com/max21910/",
+                   "class" : "DepictionTableButtonView"
+                 },
+                 
+                 
+                {
+                    "spacing": 5,
+                    "class": "DepictionSpacerView"
+                },
+                 {
+                    "itemSize": "{16, 80.}",
+                    "itemCornerRadius": 21,
+                    "class": "DepictionScreenshotsView",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot0",
+                            "url": "https://github.com/max21910/max21160/blob/main/CydiaIcon.png?raw=true"
+                        }
+                       
+                    ]
                 }
             ]
         }

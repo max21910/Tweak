@@ -1,91 +1,178 @@
 {
-  "minVersion": "0.1",
-  "headerImage": "https://github.com/max21910/Tweak/blob/master/deciptions/css/profile1.png?raw=true",
-  "tintColor": "Tint Color",
-  "tabs": [
-    {
-      "tabname": "Details",
-      "views": [
+    "minVersion": "0.4",
+    "tabs": [
         {
-          "title": "Maintenace",
-          "useBoldText": true,
-          "useBottomMargin": false,
-          "class": "DepictionSubheaderView"
-        },
-        {
-          "itemCornerRadius": 6,
-          "itemSize": "{160, 275.41333333333336}",
-          "screenshots": [
-            {
-              "accessibilityText": "Screenshot",
-              "url": "https://github.com/max21910/Tweak/blob/master/deciptions/Sileo%20/com.max21160.update/1.png?raw=true",
-              "fullSizeURL": "https://github.com/max21910/Tweak/blob/master/deciptions/Sileo%20/com.max21160.update/1.png?raw=true"
-            }
-          ],
-          "class": "DepictionScreenshotsView"
-        },
-        {
-          "markdown": "Max Repo est actuellement en maintenace nous nous excusons pour la gêne ocasionner vous pouver encore telecharger nos packet mais les depiction ne sont plus disponible pour environ 1 à 2 heur. La maintenance informatique répond à plusieurs objectifs : préserver les performances des matériels et logiciels, mettre à jour le système informatique et bien évidemment corriger les éventuels problèmes",
-          "useSpacing": true,
-          "class": "DepictionMarkdownView"
-        },
-        {
-          "class": "DepictionSeparatorView"
-        },
-        {
-          "title": "Latest Version",
-          "class": "DepictionHeaderView"
-        },
-        {
-          "title": "Version",
-          "text": "Latest Version Number",
-          "class": "DepictionTableTextView"
-        },
-        {
-          "title": "Released",
-          "text": "Latest Release Date",
-          "class": "DepictionTableTextView"
-        },
-        {
-          "title": "Price",
-          "text": "Package Price",
-          "class": "DepictionTableTextView"
-        },
-        {
-          "title": "Developer",
-          "text": "Max21160",
-          "class": "DepictionTableTextView"
-        },
-        {
-          "title": "Contact Support",
-          "action": "Support URL",
-          "class": "DepictionTableButtonView"
-        },
-        {
-          "spacing": 16,
-          "class": "DepictionSpacerView"
-        },
-        {
-          "spacing": 20,
-          "class": "DepictionSpacerView"
+            "class": "DepictionStackView",
+            "tabs": 0,
+            "tabname": "  ",
+            "views": [
+                
+                   
+                
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "itemSize": "{160, 75.41333333333336}",
+                    "itemCornerRadius": 21,
+                    "class": "DepictionScreenshotsView",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot0",
+                            "url": "1.png"
+                        }
+                        
+                       
+                    ]
+                },
+                {
+                    "useBottomMargin": false,
+                    "title": "Maintenace:",
+                    "useBoldText": true,
+                    "fontWeight": "black",
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                    "markdown": "Connexion au serveur impossible",
+                    "useBottomMargin": false,
+                    "title": "markdown-description",
+                    "useBoldText": true,
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "useBottomMargin": false,
+                    "title":"-Description:",
+                    "useBoldText": false,
+                    "fontWeight": "black",
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                
+                    "markdown": "Maintenace en cours.........",
+                    "useBottomMargin": false,
+                    "title": "markdown-description",
+                    "useBoldText": true,
+                    "class": "DepictionMarkdownView"
+                },
+                     
+                  
+                
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "text": "1.0",
+                    "title": "Version",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "text": "01-12-2020",
+                    "title": "Date:",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "text": "Free",
+                    "title": "Prix:",
+                    "class": "DepictionTableTextView"
+                },
+                
+                {
+                   
+                    "text": "Max21160",
+                    "title": "Developpeur:",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                   
+                    "text": "",
+                    "title": "Commentaires:",
+                    "class": "DepictionTableTextView"
+                },
+               
+                  { 
+                   "title": "Aucun commentaire",
+                   "author": " ",
+                   "markdown": " ",
+                   "rating": "0",
+                   "class": "DepictionReviewView"
+
+                },
+                {    
+                  
+                  "action": "https://max21910.github.io/max21160/com",
+                   "text": "Mettre un commentaire en ligne.",
+                   "tintColor": "#3E9AF6",
+                  "class" : "DepictionButtonView"
+                  
+                 },
+                 {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                
+                {    
+                  "title": "Website",
+                  "action": "https://max21910.github.io/max21160",
+                  "tintColor": "#EDB832",
+                  "class" : "DepictionTableButtonView"
+                  
+                 },
+                 {    
+                     
+                    "title": "Support",
+                     "tintColor": "#EDB832",
+                    "action": "mailto:maxime21160@icloud.com",
+                   "class" : "DepictionTableButtonView"
+                 },
+                 {    
+                     
+                    "title": "Twitter",
+                     "tintColor": "#EDB832",
+                    "action": "https://twitter.com/Max21160/",
+                   "class" : "DepictionTableButtonView"
+                 },
+                 {    
+                     
+                    "title": "Github",
+                     "tintColor": "#EDB832",
+                    "action": "https://github.com/max21910/",
+                   "class" : "DepictionTableButtonView"
+                 },
+                 
+                 
+                {
+                    "spacing": 5,
+                    "class": "DepictionSpacerView"
+                },
+                 {
+                    "itemSize": "{16, 80.}",
+                    "itemCornerRadius": 21,
+                    "class": "DepictionScreenshotsView",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot0",
+                            "url": "https://github.com/max21910/max21160/blob/main/CydiaIcon.png?raw=true"
+                        }
+                       
+                    ]
+                }
+            ]
         }
-      ],
-      "class": "DepictionStackView"
-    },
-    {
-      "tabname": "Changelog",
-      "views": [
-		{
-          "title": "Version Number",
-          "useBoldText": true,
-          "useBottomMargin": true,
-          "class": "DepictionSubheaderView"
-        },
-        {
-          "markdown": "\t\n\u2022 Update en cours",
-          "useSpacing": false,
-          "class": "DepictionMarkdownView"
-        }
+    ],
+    "tintColor": "#0657bb",
+    "headerImage": "https://github.com/max21910/Tweak/blob/master/deciptions/Sileo%20/Banner/NoDock.png?raw=true",
+    "class": "DepictionTabView"
+}
+
+
+
+
+
       ],
       "class": "DepictionStackView"
     }
